@@ -32,20 +32,26 @@ Google hacking, also known as Google dorking, is a technique that involves using
 
 site: This operator allows you to search for pages that are within a specific website or domain. For example, "site:example.com" would search for pages that are on the example.com domain.
 Following searches for all the sites that is in the domain yahoo.com
+![Screenshot (102)](https://github.com/user-attachments/assets/c2110056-9606-403a-ab41-6484101f8861)
 
 filetype: This operator allows you to search for files of a specific type. For example, "filetype:pdf" would search for all PDF files.
 Following searches for pdf file in the domain yahoo.com
+![Screenshot (103)](https://github.com/user-attachments/assets/6e10dbd7-e318-4c4c-9a10-c0c23a59b911)
 
 
 
 intext: This operator allows you to search for pages that contain specific text within the body of the page. For example, "intext:password" would search for pages that contain the word "password" within the body of the page.
+![Screenshot (104)](https://github.com/user-attachments/assets/e5fbd9e2-7447-4970-9bdd-672b051e9d2f)
 
 
 inurl: This operator allows you to search for pages that contain specific text within the URL. For example, "inurl:admin" would search for pages that contain the word "admin" within the URL.
+![Screenshot (105)](https://github.com/user-attachments/assets/c661d8a9-54c8-4337-8b47-aa50cf993ce7)
 
 intitle: This operator allows you to search for pages that contain specific text within the title tag. For example, "intitle:index of" would search for pages that contain "index of" within the title tag.
+![Screenshot (106)](https://github.com/user-attachments/assets/7fc90eaf-022b-4452-938a-609b673941a3)
 
 link: This operator allows you to search for pages that link to a specific URL. For example, "link:example.com" would search for pages that link to the example.com domain.
+![Screenshot (107)](https://github.com/user-attachments/assets/49667a33-2050-4f62-9120-3cee5de2f79e)
 
 cache: This operator allows you to view the cached version of a page. For example, "cache:example.com" would show the cached version of the example.com website.
 
@@ -60,15 +66,11 @@ Enumerate general DNS records for a given domain (MX, SOA, NS, A, AAAA, SPF , TX
 Perform common SRV Record Enumeration
 Top level domain expansion
 ## OUTPUT:
-
-
-
-
-
-
+![Screenshot (108)](https://github.com/user-attachments/assets/4760b92e-cda4-4160-95c8-472ab7753cd0)
 
 ##dnsenum
 Dnsenum is a multithreaded perl script to enumerate DNS information of a domain and to discover non-contiguous ip blocks. The main purpose of Dnsenum is to gather as much information as possible about a domain. The program currently performs the following operations:
+![Screenshot (109)](https://github.com/user-attachments/assets/8d909fa3-d0ea-4bce-8a17-91208d7bfa93)
 
 Get the host’s addresses (A record).
 Get the namservers (threaded).
@@ -89,6 +91,7 @@ Username guessing tool primarily for use against the default Solaris SMTP servic
 In metasploit list all the usernames using head /etc/passwd or cat /etc/passwd:
 
 select any username in the first column of the above file and check the same
+![Screenshot (110)](https://github.com/user-attachments/assets/f5381b71-f3c4-4f1c-b025-c995b2f7f924)
 
 
 #Telnet for smtp enumeration
@@ -97,7 +100,8 @@ telnet <host address> 25 to connect
 and issue appropriate commands
   
  ##Output
-  
+  ![Screenshot (111)](https://github.com/user-attachments/assets/3040f9eb-38cb-45a8-9140-fb733050135e)
+
   
 
 ## nmap –script smtp-enum-users.nse <hostname>
